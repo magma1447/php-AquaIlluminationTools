@@ -1,5 +1,12 @@
 <?php
 
+// Config
+$inFile = 'TQ1 D.Saxby cleaner resp spikes nov 2016v2.aip';
+$outFile = 'my.aip';
+$minutes = -60;
+//--
+
+
 /*
     var d = function(m) {
         var l = 0;
@@ -35,11 +42,6 @@ function AI_Hash($m) {
 	}
 	return $l;
 }
-
-
-$inFile = 'TQ1 D.Saxby cleaner resp spikes nov 2016v2.aip';
-$outFile = 'my.aip';
-$minutes = -60;
 
 
 
