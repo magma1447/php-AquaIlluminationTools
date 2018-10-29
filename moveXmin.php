@@ -1,47 +1,39 @@
 <?php
 
-// Config
-$inFile = 'TQ1 D.Saxby cleaner resp spikes nov 2016v2.aip';
-$outFile = 'my.aip';
-$minutes = -60;
-//--
+require_once('AquaIllumination.php');
 
 
-/*
-    var d = function(m) {
-        var l = 0;
-        if (m.length == 0) {
-            return l
-        }
-        for (var k = 0; k < m.length; k++) {
-            var j = m.charCodeAt(k);
-            l = ((l << 5) - l) + j;
-            l = l & 4294967295
-        }
-        if (l < 0) {
-            l = ~l
-        }
-        return l
-    };
-*/
-function AI_Hash($m) {
-	$l = 0;
-	if(strlen($m) == 0) {
-		return $l;
-	}
-	for($k = 0 ; $k < strlen($m) ; $k++) {
-		$j = ord($m[$k]);
-		$l = (($l << 5) - $l) + $j;
-		$l = $l & 4294967295;
-		if($l > 4294967296/2) {
-			$l -= 4294967296;
-		}
-	}
-	if($l < 0) {
-		$l = ~$l;
-	}
-	return $l;
+
+function echoerr($string) {
+	fwrite(STDERR, $string);
 }
+function dieerr($string) {
+	fwrite(STDERR, $string);
+	exit(1);
+}
+
+
+
+if($argc != 4) {
+	dieerr("Usage: php -f {$argv[0]} <in-file> <out-file> <difference-in-minutes>\n");
+}
+
+
+
+$inFile = (string) $argv[1];
+$outFile = (string) $argv[2];
+$minutes = (int) $argv[3];
+
+if(empty($inFile) || !file_exists($inFile)) {
+	dieerr("Invalid in-file\n");
+}
+if(empty($outFile)) {
+	dieerr("Invalid out-file\n");
+}
+if(empty($minutes)) {
+	dieerr("Invalid difference-in-minutes\n");
+}
+
 
 
 
