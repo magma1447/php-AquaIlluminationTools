@@ -36,9 +36,11 @@ if(empty($minutes)) {
 
 
 
-
+echo "Reading {$inFile}\n";
 $buf = file_get_contents($inFile);
 
+
+echo "Parsing {$inFile}\n";
 $lines = explode(PHP_EOL, $buf);
 $out = array();
 foreach($lines as $line) {
@@ -53,33 +55,16 @@ foreach($lines as $line) {
 
 	$out[] = $line;
 }
-
-
-// Create a string to checksum
-$store = FALSE;
-$hashData = array();
-foreach($out as $line) {
-	if($store === FALSE && strpos($line, '<colors') !== FALSE) {
-		$store = TRUE;
-		$line  = str_replace("\t", '', $line);
-	}
-	else if($store === TRUE && strpos($line, '</ramp>') !== FALSE) {
-		$store = FALSE;
-	}
-
-	if($store === TRUE) {
-		$hashData[] = $line;
-	}
-}
-$hashData = implode($hashData);
-
-$hashData = preg_replace('/\s+/', '', $hashData);
-$newHash = AI_Hash($hashData);
-
-
-
 $out = implode(PHP_EOL, $out);
+
+
+echo "Hashing data\n";
+$hashData = preg_replace('/\s+/', '', $out);
+$hashData = preg_match('/.*(<colors>.*<\/colors>).*/', $hashData, $matches);
+$newHash = AI_Hash($matches[1]);
 $out = preg_replace('/<checksum>[^<]+<\/checksum>/', "<checksum>{$newHash}</checksum>", $out);
 
+
+echo "Creating {$outFile}\n";
 file_put_contents($outFile, $out);
 
