@@ -1,5 +1,6 @@
 <?php
 
+//  Hash function found in ui-support.js:360
 /*
     var d = function(m) {
         var l = 0;
