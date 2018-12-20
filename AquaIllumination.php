@@ -18,7 +18,12 @@
         return l
     };
 */
-function AI_Hash($m) {
+function AI_Hash($xml) {
+	$hashData = preg_replace('/\s+/', '', $xml);
+	$hashData = preg_match('/.*(<colors>.*<\/colors>).*/', $hashData, $matches);
+
+	$m = $matches[1];
+
 	$l = 0;
 	if(strlen($m) == 0) {
 		return $l;

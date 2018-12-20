@@ -15,14 +15,14 @@ function dieerr($string) {
 
 
 if($argc != 4) {
-	dieerr("Usage: php -f {$argv[0]} <in-file> <out-file> <difference-in-minutes>\n");
+	dieerr("Usage: php -f {$argv[0]} <in-file> <out-file> <multiplier>\n");
 }
 
 
 
 $inFile = (string) $argv[1];
 $outFile = (string) $argv[2];
-$minutes = (int) $argv[3];
+$multiplier = (float) $argv[3];
 
 if(empty($inFile) || !file_exists($inFile)) {
 	dieerr("Invalid in-file\n");
@@ -30,7 +30,7 @@ if(empty($inFile) || !file_exists($inFile)) {
 if(empty($outFile)) {
 	dieerr("Invalid out-file\n");
 }
-if(empty($minutes)) {
+if(empty($multiplier)) {
 	dieerr("Invalid difference-in-minutes\n");
 }
 
@@ -44,13 +44,13 @@ echo "Parsing {$inFile}\n";
 $lines = explode(PHP_EOL, $buf);
 $out = array();
 foreach($lines as $line) {
-	if(preg_match('/<time>([^<]+)<\/time>/', $line, $matches) === 1) {
-		$time = $matches[1];
-		if($time != '0') {
-			$time += $minutes;
+	if(preg_match('/<intensity>([^<]+)<\/intensity>/', $line, $matches) === 1) {
+		$intensity = $matches[1];
+		if($intensity != '0') {
+			$intensity = round($intensity*$multiplier);
 		}
 
-		$line = "\t\t\t\t<time>{$time}</time>";
+		$line = "\t\t\t\t<intensity>{$intensity}</intensity>";
 	}
 
 	$out[] = $line;
