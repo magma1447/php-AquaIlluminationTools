@@ -10,7 +10,7 @@ The tool has been written and tested with two Hydra 26 running firmware 2.4.0. I
 My goal was to change the schedule by one hour, and reduce the intensity by 10%. I also thought there was a bit too much blue coloring, so I added some more cool_white again.
 I have created my settings using these snippets:
 php -f moveXmin.php TQ1\ D.Saxby\ cleaner\ resp\ spikes\ nov\ 2016v2.aip my.aip -60
-php -f change-intensity.php my.aip my.aip 0.9
-Now I manually copied the cool_white section from Saxby's original file into my.aip.
-php -f update-hash.php my.aip my.aip 
+php -f change-intensity.php my.aip my2.aip 0.9
+Now I manually copied the cool_white section from my.aip into my2.aip.
+php -f update-hash.php my2.aip my2.aip 
 

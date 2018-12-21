@@ -2,7 +2,7 @@
 <ramp>
 	<header>
 		<version>2</version>
-		<checksum>1252923292</checksum>
+		<checksum>1456842834</checksum>
 	</header>
 	<colors>
 		<deep_red>
@@ -43,71 +43,71 @@
 				<time>600</time>
 			</point>
 			<point>
-				<intensity>111</intensity>
+				<intensity>100</intensity>
 				<time>790</time>
 			</point>
 			<point>
-				<intensity>111</intensity>
+				<intensity>100</intensity>
 				<time>810</time>
 			</point>
 			<point>
-				<intensity>111</intensity>
+				<intensity>100</intensity>
 				<time>830</time>
 			</point>
 			<point>
-				<intensity>111</intensity>
+				<intensity>100</intensity>
 				<time>850</time>
 			</point>
 			<point>
-				<intensity>100</intensity>
+				<intensity>90</intensity>
 				<time>870</time>
 			</point>
 			<point>
-				<intensity>100</intensity>
+				<intensity>90</intensity>
 				<time>890</time>
 			</point>
 			<point>
-				<intensity>100</intensity>
+				<intensity>90</intensity>
 				<time>910</time>
 			</point>
 			<point>
-				<intensity>98</intensity>
+				<intensity>88</intensity>
 				<time>930</time>
 			</point>
 			<point>
-				<intensity>100</intensity>
+				<intensity>90</intensity>
 				<time>950</time>
 			</point>
 			<point>
-				<intensity>100</intensity>
+				<intensity>90</intensity>
 				<time>970</time>
 			</point>
 			<point>
-				<intensity>93</intensity>
+				<intensity>84</intensity>
 				<time>990</time>
 			</point>
 			<point>
-				<intensity>98</intensity>
+				<intensity>88</intensity>
 				<time>1010</time>
 			</point>
 			<point>
-				<intensity>100</intensity>
+				<intensity>90</intensity>
 				<time>1030</time>
 			</point>
 			<point>
-				<intensity>50</intensity>
+				<intensity>45</intensity>
 				<time>1060</time>
 			</point>
 			<point>
-				<intensity>47</intensity>
+				<intensity>42</intensity>
 				<time>1080</time>
 			</point>
 			<point>
-				<intensity>36</intensity>
+				<intensity>32</intensity>
 				<time>1160</time>
 			</point>
 			<point>
-				<intensity>102</intensity>
+				<intensity>92</intensity>
 				<time>1230</time>
 			</point>
 			<point>
@@ -125,95 +125,95 @@
 				<time>530</time>
 			</point>
 			<point>
-				<intensity>44</intensity>
+				<intensity>40</intensity>
 				<time>540</time>
 			</point>
 			<point>
-				<intensity>111</intensity>
+				<intensity>100</intensity>
 				<time>550</time>
 			</point>
 			<point>
-				<intensity>133</intensity>
+				<intensity>120</intensity>
 				<time>560</time>
 			</point>
 			<point>
-				<intensity>144</intensity>
+				<intensity>130</intensity>
 				<time>580</time>
 			</point>
 			<point>
-				<intensity>155</intensity>
+				<intensity>140</intensity>
 				<time>590</time>
 			</point>
 			<point>
-				<intensity>165</intensity>
+				<intensity>149</intensity>
 				<time>600</time>
 			</point>
 			<point>
-				<intensity>398</intensity>
+				<intensity>358</intensity>
 				<time>790</time>
 			</point>
 			<point>
-				<intensity>409</intensity>
+				<intensity>368</intensity>
 				<time>810</time>
 			</point>
 			<point>
-				<intensity>419</intensity>
+				<intensity>377</intensity>
 				<time>830</time>
 			</point>
 			<point>
-				<intensity>423</intensity>
+				<intensity>381</intensity>
 				<time>850</time>
 			</point>
 			<point>
-				<intensity>427</intensity>
+				<intensity>384</intensity>
 				<time>870</time>
 			</point>
 			<point>
-				<intensity>432</intensity>
+				<intensity>389</intensity>
 				<time>890</time>
 			</point>
 			<point>
-				<intensity>424</intensity>
+				<intensity>382</intensity>
 				<time>910</time>
 			</point>
 			<point>
-				<intensity>404</intensity>
+				<intensity>364</intensity>
 				<time>930</time>
 			</point>
 			<point>
-				<intensity>422</intensity>
+				<intensity>380</intensity>
 				<time>950</time>
 			</point>
 			<point>
-				<intensity>402</intensity>
+				<intensity>362</intensity>
 				<time>970</time>
 			</point>
 			<point>
-				<intensity>403</intensity>
+				<intensity>363</intensity>
 				<time>990</time>
 			</point>
 			<point>
-				<intensity>404</intensity>
+				<intensity>364</intensity>
 				<time>1010</time>
 			</point>
 			<point>
-				<intensity>401</intensity>
+				<intensity>361</intensity>
 				<time>1030</time>
 			</point>
 			<point>
-				<intensity>355</intensity>
+				<intensity>320</intensity>
 				<time>1060</time>
 			</point>
 			<point>
-				<intensity>343</intensity>
+				<intensity>309</intensity>
 				<time>1080</time>
 			</point>
 			<point>
-				<intensity>293</intensity>
+				<intensity>264</intensity>
 				<time>1160</time>
 			</point>
 			<point>
-				<intensity>157</intensity>
+				<intensity>141</intensity>
 				<time>1230</time>
 			</point>
 			<point>
@@ -231,95 +231,95 @@
 				<time>530</time>
 			</point>
 			<point>
-				<intensity>44</intensity>
+				<intensity>40</intensity>
 				<time>540</time>
 			</point>
 			<point>
-				<intensity>100</intensity>
+				<intensity>90</intensity>
 				<time>550</time>
 			</point>
 			<point>
-				<intensity>174</intensity>
+				<intensity>157</intensity>
 				<time>560</time>
 			</point>
 			<point>
-				<intensity>301</intensity>
+				<intensity>271</intensity>
 				<time>580</time>
 			</point>
 			<point>
-				<intensity>319</intensity>
+				<intensity>287</intensity>
 				<time>590</time>
 			</point>
 			<point>
-				<intensity>336</intensity>
+				<intensity>302</intensity>
 				<time>600</time>
 			</point>
 			<point>
-				<intensity>640</intensity>
+				<intensity>576</intensity>
 				<time>790</time>
 			</point>
 			<point>
-				<intensity>640</intensity>
+				<intensity>576</intensity>
 				<time>810</time>
 			</point>
 			<point>
-				<intensity>642</intensity>
+				<intensity>578</intensity>
 				<time>830</time>
 			</point>
 			<point>
-				<intensity>646</intensity>
+				<intensity>581</intensity>
 				<time>850</time>
 			</point>
 			<point>
-				<intensity>652</intensity>
+				<intensity>587</intensity>
 				<time>870</time>
 			</point>
 			<point>
-				<intensity>642</intensity>
+				<intensity>578</intensity>
 				<time>890</time>
 			</point>
 			<point>
-				<intensity>639</intensity>
+				<intensity>575</intensity>
 				<time>910</time>
 			</point>
 			<point>
-				<intensity>638</intensity>
+				<intensity>574</intensity>
 				<time>930</time>
 			</point>
 			<point>
-				<intensity>616</intensity>
+				<intensity>554</intensity>
 				<time>950</time>
 			</point>
 			<point>
-				<intensity>616</intensity>
+				<intensity>554</intensity>
 				<time>970</time>
 			</point>
 			<point>
-				<intensity>636</intensity>
+				<intensity>572</intensity>
 				<time>990</time>
 			</point>
 			<point>
-				<intensity>638</intensity>
+				<intensity>574</intensity>
 				<time>1010</time>
 			</point>
 			<point>
-				<intensity>618</intensity>
+				<intensity>556</intensity>
 				<time>1030</time>
 			</point>
 			<point>
-				<intensity>582</intensity>
+				<intensity>524</intensity>
 				<time>1060</time>
 			</point>
 			<point>
-				<intensity>567</intensity>
+				<intensity>510</intensity>
 				<time>1080</time>
 			</point>
 			<point>
-				<intensity>507</intensity>
+				<intensity>456</intensity>
 				<time>1160</time>
 			</point>
 			<point>
-				<intensity>271</intensity>
+				<intensity>244</intensity>
 				<time>1230</time>
 			</point>
 			<point>
@@ -467,71 +467,71 @@
 				<time>600</time>
 			</point>
 			<point>
-				<intensity>78</intensity>
+				<intensity>70</intensity>
 				<time>790</time>
 			</point>
 			<point>
-				<intensity>89</intensity>
+				<intensity>80</intensity>
 				<time>810</time>
 			</point>
 			<point>
-				<intensity>89</intensity>
+				<intensity>80</intensity>
 				<time>830</time>
 			</point>
 			<point>
-				<intensity>89</intensity>
+				<intensity>80</intensity>
 				<time>850</time>
 			</point>
 			<point>
-				<intensity>78</intensity>
+				<intensity>70</intensity>
 				<time>870</time>
 			</point>
 			<point>
-				<intensity>78</intensity>
+				<intensity>70</intensity>
 				<time>890</time>
 			</point>
 			<point>
-				<intensity>78</intensity>
+				<intensity>70</intensity>
 				<time>910</time>
 			</point>
 			<point>
-				<intensity>72</intensity>
+				<intensity>65</intensity>
 				<time>930</time>
 			</point>
 			<point>
-				<intensity>78</intensity>
+				<intensity>70</intensity>
 				<time>950</time>
 			</point>
 			<point>
-				<intensity>78</intensity>
+				<intensity>70</intensity>
 				<time>970</time>
 			</point>
 			<point>
-				<intensity>69</intensity>
+				<intensity>62</intensity>
 				<time>990</time>
 			</point>
 			<point>
-				<intensity>72</intensity>
+				<intensity>65</intensity>
 				<time>1010</time>
 			</point>
 			<point>
-				<intensity>67</intensity>
+				<intensity>60</intensity>
 				<time>1030</time>
 			</point>
 			<point>
-				<intensity>34</intensity>
+				<intensity>31</intensity>
 				<time>1060</time>
 			</point>
 			<point>
-				<intensity>31</intensity>
+				<intensity>28</intensity>
 				<time>1080</time>
 			</point>
 			<point>
-				<intensity>21</intensity>
+				<intensity>19</intensity>
 				<time>1160</time>
 			</point>
 			<point>
-				<intensity>8</intensity>
+				<intensity>7</intensity>
 				<time>1230</time>
 			</point>
 			<point>
@@ -557,87 +557,87 @@
 				<time>550</time>
 			</point>
 			<point>
-				<intensity>146</intensity>
+				<intensity>131</intensity>
 				<time>560</time>
 			</point>
 			<point>
-				<intensity>383</intensity>
+				<intensity>345</intensity>
 				<time>580</time>
 			</point>
 			<point>
-				<intensity>433</intensity>
+				<intensity>390</intensity>
 				<time>590</time>
 			</point>
 			<point>
-				<intensity>483</intensity>
+				<intensity>435</intensity>
 				<time>600</time>
 			</point>
 			<point>
-				<intensity>1312</intensity>
+				<intensity>1181</intensity>
 				<time>790</time>
 			</point>
 			<point>
-				<intensity>979</intensity>
+				<intensity>881</intensity>
 				<time>810</time>
 			</point>
 			<point>
-				<intensity>1306</intensity>
+				<intensity>1175</intensity>
 				<time>830</time>
 			</point>
 			<point>
-				<intensity>975</intensity>
+				<intensity>878</intensity>
 				<time>850</time>
 			</point>
 			<point>
-				<intensity>1292</intensity>
+				<intensity>1163</intensity>
 				<time>870</time>
 			</point>
 			<point>
-				<intensity>973</intensity>
+				<intensity>876</intensity>
 				<time>890</time>
 			</point>
 			<point>
-				<intensity>1268</intensity>
+				<intensity>1141</intensity>
 				<time>910</time>
 			</point>
 			<point>
-				<intensity>966</intensity>
+				<intensity>869</intensity>
 				<time>930</time>
 			</point>
 			<point>
-				<intensity>1240</intensity>
+				<intensity>1116</intensity>
 				<time>950</time>
 			</point>
 			<point>
-				<intensity>950</intensity>
+				<intensity>855</intensity>
 				<time>970</time>
 			</point>
 			<point>
-				<intensity>1182</intensity>
+				<intensity>1064</intensity>
 				<time>990</time>
 			</point>
 			<point>
-				<intensity>966</intensity>
+				<intensity>869</intensity>
 				<time>1010</time>
 			</point>
 			<point>
-				<intensity>1101</intensity>
+				<intensity>991</intensity>
 				<time>1030</time>
 			</point>
 			<point>
-				<intensity>962</intensity>
+				<intensity>866</intensity>
 				<time>1060</time>
 			</point>
 			<point>
-				<intensity>941</intensity>
+				<intensity>847</intensity>
 				<time>1080</time>
 			</point>
 			<point>
-				<intensity>856</intensity>
+				<intensity>770</intensity>
 				<time>1160</time>
 			</point>
 			<point>
-				<intensity>483</intensity>
+				<intensity>435</intensity>
 				<time>1230</time>
 			</point>
 			<point>
@@ -663,87 +663,87 @@
 				<time>550</time>
 			</point>
 			<point>
-				<intensity>149</intensity>
+				<intensity>134</intensity>
 				<time>560</time>
 			</point>
 			<point>
-				<intensity>404</intensity>
+				<intensity>364</intensity>
 				<time>580</time>
 			</point>
 			<point>
-				<intensity>455</intensity>
+				<intensity>410</intensity>
 				<time>590</time>
 			</point>
 			<point>
-				<intensity>506</intensity>
+				<intensity>455</intensity>
 				<time>600</time>
 			</point>
 			<point>
-				<intensity>1352</intensity>
+				<intensity>1217</intensity>
 				<time>790</time>
 			</point>
 			<point>
-				<intensity>1016</intensity>
+				<intensity>914</intensity>
 				<time>810</time>
 			</point>
 			<point>
-				<intensity>1349</intensity>
+				<intensity>1214</intensity>
 				<time>830</time>
 			</point>
 			<point>
-				<intensity>1011</intensity>
+				<intensity>910</intensity>
 				<time>850</time>
 			</point>
 			<point>
-				<intensity>1343</intensity>
+				<intensity>1209</intensity>
 				<time>870</time>
 			</point>
 			<point>
-				<intensity>1000</intensity>
+				<intensity>900</intensity>
 				<time>890</time>
 			</point>
 			<point>
-				<intensity>1321</intensity>
+				<intensity>1189</intensity>
 				<time>910</time>
 			</point>
 			<point>
-				<intensity>1013</intensity>
+				<intensity>912</intensity>
 				<time>930</time>
 			</point>
 			<point>
-				<intensity>1299</intensity>
+				<intensity>1169</intensity>
 				<time>950</time>
 			</point>
 			<point>
-				<intensity>996</intensity>
+				<intensity>896</intensity>
 				<time>970</time>
 			</point>
 			<point>
-				<intensity>1223</intensity>
+				<intensity>1101</intensity>
 				<time>990</time>
 			</point>
 			<point>
-				<intensity>995</intensity>
+				<intensity>896</intensity>
 				<time>1010</time>
 			</point>
 			<point>
-				<intensity>1132</intensity>
+				<intensity>1019</intensity>
 				<time>1030</time>
 			</point>
 			<point>
-				<intensity>992</intensity>
+				<intensity>893</intensity>
 				<time>1060</time>
 			</point>
 			<point>
-				<intensity>970</intensity>
+				<intensity>873</intensity>
 				<time>1080</time>
 			</point>
 			<point>
-				<intensity>896</intensity>
+				<intensity>806</intensity>
 				<time>1160</time>
 			</point>
 			<point>
-				<intensity>537</intensity>
+				<intensity>483</intensity>
 				<time>1230</time>
 			</point>
 			<point>
